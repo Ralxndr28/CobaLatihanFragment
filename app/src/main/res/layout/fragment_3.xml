@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Input Field for Max Number Range -->
+    <EditText
+        android:id="@+id/max_number_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan batas angka (contoh: 5)"
+        android:inputType="number"
+        android:layout_marginBottom="16dp"
+        android:padding="8dp" />
+
+    <!-- Button to Set Max Number -->
+    <Button
+        android:id="@+id/set_max_number_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simpan Batas Angka"
+        android:padding="12dp"
+        android:backgroundTint="@color/teal_200" />
+
+</LinearLayout>
